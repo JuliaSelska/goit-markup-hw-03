@@ -38,6 +38,29 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.section-padding {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 /* ############### /COMMON STYLES############### */
 
 /* ############### HEADER STYLES############### */
@@ -131,6 +154,9 @@ button {
 }
 
 .main-title {
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 56px;
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -158,7 +184,16 @@ button {
 /* ############# BENEFITS STYLES ################# */
 
 .benefits-section {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
+}
+
+.benefits-list {
+  display: flex;
+  column-gap: 24px;
+}
+
+.benefits-list-item {
+  width: calc((100%-72px) / 4);
 }
 
 .benefits-list-title {
@@ -193,10 +228,20 @@ button {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+  margin-top: 120px;
+}
+
+.team-list {
+  display: flex;
+  width: 264px;
+  column-gap: 24px;
 }
 
 .team-list-item {
   background-color: #ffffff;
+  width: calc((100%-72px) / 4);
+  margin-bottom: 240px;
 }
 
 .ourteam-list-fullname {
@@ -219,7 +264,18 @@ button {
 
 /* ############## OUR PORTFOLIO ##################### */
 
+.portfolio-list {
+  display: flex;
+  column-gap: 24px;
+  flex-wrap: wrap;
+}
+
+.portfolio-list-item {
+  width: calc((100%-48px) / 3);
+}
+
 .portfolio-title {
+  margin-bottom: 72px;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
