@@ -245,7 +245,7 @@ img {
 
 .team-list {
   display: flex;
-  width: 264px;
+  max-width: 1158px;
   gap: 24px;
 }
 
