@@ -241,7 +241,7 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
   padding-bottom: 72px;
-  padding-top: 120px;
+  padding-top: 60px;
 }
 
 .team-list {
@@ -253,14 +253,15 @@ img {
 .team-list-item {
   background-color: #ffffff;
   width: calc((100%-72px) / 4);
-  margin-bottom: 120px;
+  margin-bottom: 60px;
 }
 
 .ourteam-list-information {
   padding: 16px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid black;
   border-top: none;
-  border-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 .ourteam-list-fullname {
@@ -291,7 +292,7 @@ img {
   row-gap: 48px;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 120px;
+  margin-bottom: 60px;
 }
 
 .portfolio-list-item {
@@ -299,7 +300,7 @@ img {
 }
 
 .portfolio-title {
-  padding-top: 120px;
+  padding-top: 60px;
   padding-bottom: 72px;
   font-size: 36px;
   font-weight: 700;
