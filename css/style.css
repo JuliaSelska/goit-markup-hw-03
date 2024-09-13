@@ -152,7 +152,6 @@ img {
 .hero-section {
   background-color: #2e2f42;
   height: 600px;
-  padding: 188px 0;
 }
 
 .main-title {
@@ -248,19 +247,19 @@ img {
 .team-list {
   display: flex;
   width: 264px;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .team-list-item {
   background-color: #ffffff;
   width: calc((100%-72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .ourteam-list-information {
   padding: 32px 0;
   border: 1px solid black;
   border-top: none;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .ourteam-list-fullname {
@@ -338,10 +337,7 @@ img {
 /* #################### FOOTER ####################### */
 .page-footer {
   background-color: #2e2f42;
-}
-
-.title-footer-logo {
-  padding-top: 100px;
+  padding: 100px 0px;
 }
 
 .footer-logo {
@@ -360,3 +356,7 @@ img {
   color: #f4f4fd;
 }
 /* ################## / FOOTER ####################### */
+
+/*   .title-footer-logo {
+  padding-top: 100px;
+}  */
